@@ -37,13 +37,14 @@ const PORTFOLIO = {
   aboutTitleItalic: "and reduce manual effort.",
   aboutParagraphs: [
     "I'm a Senior Process Analyst at Dyad, Inc., specializing in US P&C Insurance Operations, Quality Assurance, Manual Testing, and Data Validation. I act as SPOC across multiple insurance projects, supporting underwriting, policy administration, accounting, claims support, data migration, reconciliation, and reporting.",
-    "I lead process improvement initiatives through workflow analysis, SOP development, and Excel/VBA automation — including an end-to-end reporting automation that cut processing time by approximately 79%. I also apply Generative AI tools for analysis, documentation, and productivity improvement.",
+    "I lead process improvement initiatives through workflow analysis, SOP development, and Excel/VBA automation — including designing an end-to-end reporting automation covering extraction, processing, distribution, scheduling, and error handling. I also apply Generative AI tools for analysis, documentation, and productivity improvement.",
     "I progressed from Junior Process Analyst to Process Analyst to Senior Process Analyst within the same organization, and I'm currently pursuing a BCA at Parul University alongside a completed Diploma in Information Technology from GTU.",
   ],
 
   // ─── STATS ─────────────────────────────────────────
   stats: [
     { num: "3",    label: "Roles — Same Company" },
+    { num: "SPOC", label: "Multiple Client Projects" },
     { num: "10+",  label: "Insurance Processes" },
     { num: "1",    label: "Kaizenator Award" },
   ],
@@ -112,7 +113,7 @@ const PORTFOLIO = {
         "Lead process improvement initiatives through workflow analysis, standardization, documentation, and Excel/VBA automation",
         "Develop and maintain SOPs and process documentation to improve consistency, traceability, standardization, and audit readiness",
         "Apply Generative AI tools for analysis, documentation, workflow optimization, and productivity improvement",
-        "Designed an end-to-end reporting automation that reduced processing time by approximately 79% through automated extraction, Excel processing, distribution, scheduling, and error handling",
+        "Designed an end-to-end reporting automation covering automated extraction, Excel processing, distribution, scheduling, and error handling",
       ],
     },
     {
@@ -152,7 +153,7 @@ const PORTFOLIO = {
     {
       tags: ["Excel", "VBA"],
       title: "End-to-End Reporting Automation",
-      desc: "Designed an automated reporting pipeline covering extraction, Excel processing, distribution, scheduling, and error handling — cutting reporting processing time by approximately 79%.",
+      desc: "Designed an automated reporting pipeline covering extraction, Excel processing, distribution, scheduling, and error handling to significantly cut reporting processing time.",
       github: "",
       live: "",
     },
@@ -186,7 +187,7 @@ const PORTFOLIO = {
     },
   ],
 
-  // ─── AWARDS / CERTIFICATIONS ───────────────────────
+  // ─── ACHIEVEMENTS / AWARDS ──────────────────────────
   // featured: true = brown highlighted card (first/best award)
   awards: [
     {
@@ -195,6 +196,31 @@ const PORTFOLIO = {
       title: "Kaizenator Award",
       org: "Dyad, Inc. — March 2025",
       desc: "Recognised for continuous improvement mindset and outstanding contribution to process efficiency and operational excellence.",
+    },
+    {
+      featured: false,
+      icon: "cert",
+      title: "Progressed Through 3 Roles",
+      org: "Dyad, Inc.",
+      desc: "Advanced from Junior Process Analyst to Process Analyst to Senior Process Analyst within the same organization.",
+    },
+  ],
+
+  // ─── EDUCATION ──────────────────────────────────────
+  education: [
+    {
+      featured: true,
+      icon: "education",
+      title: "Bachelor of Computer Applications (BCA)",
+      org: "Parul University — 2026 to Present",
+      desc: "Currently pursuing a BCA to build on hands-on process and data expertise with formal computer applications education.",
+    },
+    {
+      featured: false,
+      icon: "education",
+      title: "Diploma — Information Technology",
+      org: "Gujarat Technological University (GTU) — Grade 7.32",
+      desc: "Completed a diploma program with focus on IT systems, programming fundamentals, and software development principles.",
     },
   ],
 
