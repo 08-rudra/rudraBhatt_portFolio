@@ -13,38 +13,38 @@ const PORTFOLIO = {
   title: "Rudra",          // large display name (hero)
   email: "rudrakbhatt15@gmail.com",
   phone: "+91 90548 06054",
-  location: "Ahmedabad, Gujarat, India",
-  linkedin: "https://www.linkedin.com/in/rudrabhatt-700973402",
+  location: "Gujarat, India",
+  linkedin: "https://www.linkedin.com/in/rudra-bhatt-700973402",
   github: "https://github.com/08-rudra",
-  resumePDF: "assets/Resume_Rudra.pdf",   // ← drop your PDF here
+  resumePDF: "assets/Resume_Rudra.html",  // ← drop your resume file here (HTML version)
   profilePhoto: "assets/profile-pic.png", // ← drop your photo here
 
   // ─── HERO TYPEWRITER ROLES ──────────────────────────
   // Add / remove / reorder — they'll cycle automatically
   roles: [
-    "Process Analyst · US P&C Insurance",
-    "SPOC for 3 Client Projects",
-    "Underwriting & Claims Operations",
+    "Senior Process Analyst · US P&C Insurance",
+    "SPOC — Multiple Insurance Projects",
+    "Underwriting, Claims & Policy Admin",
     "Excel & VBA Automation",
-    "KPO Operations Specialist",
+    "Generative AI for Process Improvement",
   ],
 
   // ─── HERO SUBTITLE ─────────────────────────────────
-  heroSub: "Operations specialist in underwriting, claims, accounting, and process automation at Dyad India Office.",
+  heroSub: "Senior Process Analyst driving QA, data validation, and process automation across US P&C insurance operations at Dyad, Inc.",
 
   // ─── ABOUT PARAGRAPHS ──────────────────────────────
   aboutTitle: "I streamline operations",
   aboutTitleItalic: "and reduce manual effort.",
   aboutParagraphs: [
-    "I'm a Process Analyst at Dyad India Office, working across US P&C insurance and KPO operations. My work spans new business submissions, renewal underwriting, policy endorsements, cancellations, COI processing, claims support, and accounting reconciliation.",
-    "Beyond core operations, I serve as SPOC for multiple client projects — coordinating daily workflows, resolving escalations, and standardising processes through SOP creation. I actively use Advanced Excel, VBA, and AI tools to reduce manual effort and improve output quality.",
-    "I hold a Diploma in Information Technology from GTU and am always looking to grow at the intersection of insurance operations, analytics, and automation.",
+    "I'm a Senior Process Analyst at Dyad, Inc., specializing in US P&C Insurance Operations, Quality Assurance, Manual Testing, and Data Validation. I act as SPOC across multiple insurance projects, supporting underwriting, policy administration, accounting, claims support, data migration, reconciliation, and reporting.",
+    "I lead process improvement initiatives through workflow analysis, SOP development, and Excel/VBA automation — including an end-to-end reporting automation that cut processing time by approximately 79%. I also apply Generative AI tools for analysis, documentation, and productivity improvement.",
+    "I progressed from Junior Process Analyst to Process Analyst to Senior Process Analyst within the same organization, and I'm currently pursuing a BCA at Parul University alongside a completed Diploma in Information Technology from GTU.",
   ],
 
   // ─── STATS ─────────────────────────────────────────
   stats: [
-    { num: "3+",   label: "Projects as SPOC" },
-    { num: "1.5yr",label: "Industry Experience" },
+    { num: "79%",  label: "Reporting Time Reduced" },
+    { num: "3",    label: "Roles — Same Company" },
     { num: "10+",  label: "Insurance Processes" },
     { num: "1",    label: "Kaizenator Award" },
   ],
@@ -55,47 +55,43 @@ const PORTFOLIO = {
     {
       title: "Insurance Operations",
       skills: [
-        { name: "New Business Submissions" },
-        { name: "Renewal Underwriting" },
-        { name: "Policy Endorsements" },
-        { name: "Risk Evaluation" },
-        { name: "Cancellations" },
-        { name: "COI Processing" },
+        { name: "US P&C Insurance Operations" },
+        { name: "Underwriting" },
+        { name: "Policy Administration" },
         { name: "Claims Support" },
-        { name: "Inspection Support" },
-        { name: "US P&C Insurance" },
+        { name: "Accounting" },
+        { name: "Data Migration" },
       ],
     },
     {
-      title: "Accounting & KPO",
+      title: "QA & Data",
       skills: [
-        { name: "Exceptions Download" },
-        { name: "DB Reconciliation" },
-        { name: "Multi-client Workflows" },
-        { name: "Audit Readiness" },
-        { name: "SOP Creation" },
-        { name: "Quality Checks" },
+        { name: "Manual Testing" },
+        { name: "Functional Testing & Validation" },
+        { name: "Quality Assurance" },
+        { name: "Data Validation" },
+        { name: "Data Reconciliation" },
+        { name: "Issue & Discrepancy Analysis" },
+      ],
+    },
+    {
+      title: "Process & Documentation",
+      skills: [
+        { name: "Business Process Analysis" },
+        { name: "Process Improvement" },
+        { name: "Workflow Optimization" },
+        { name: "SOP Development" },
+        { name: "Process Documentation" },
+        { name: "Reporting & Analytics" },
       ],
     },
     {
       title: "Tools & Automation",
       skills: [
-        { name: "Advanced Excel",     accent: true },
-        { name: "VBA Automation",     accent: true },
-        { name: "Generative AI Tools",accent: true },
-        { name: "Microsoft Word" },
-        { name: "Data Analysis" },
-        { name: "Process Improvement" },
-      ],
-    },
-    {
-      title: "Soft Skills",
-      skills: [
-        { name: "Escalation Management" },
-        { name: "Team Coordination" },
-        { name: "SPOC Operations" },
-        { name: "Continuous Improvement" },
-        { name: "Problem Solving" },
+        { name: "Advanced Excel",      accent: true },
+        { name: "VBA Automation",      accent: true },
+        { name: "Generative AI Tools", accent: true },
+        { name: "Basic Python" },
       ],
     },
   ],
@@ -104,31 +100,47 @@ const PORTFOLIO = {
   // Set current: true for the active/latest role
   experience: [
     {
-      role: "Process Analyst",
-      company: "Dyad India Office",
-      location: "Ahmedabad",
-      period: "Jan 2026 – Present",
+      role: "Senior Process Analyst",
+      company: "Dyad, Inc.",
+      location: "Gujarat",
+      period: "Jun 2026 – Present",
       current: true,
       bullets: [
-        "Act as Single Point of Contact (SPOC) for 3 projects — coordinating daily operations, resolving escalations, and guiding team members",
-        "Handle end-to-end US P&C insurance operations including new business submissions, renewal underwriting, policy endorsements, risk evaluation, cancellations, COI, and inspection support",
-        "Manage accounting services including Exceptions Download processing and DB reconciliation across client workflows",
-        "Create and maintain SOPs to standardise processes and ensure audit readiness",
-        "Use Advanced Excel, VBA automation, and AI tools to reduce manual effort and improve data accuracy",
-        "Contribute to ongoing process improvement initiatives, identifying gaps and implementing corrective actions",
+        "Serve as SPOC for multiple US P&C insurance projects, coordinating daily operations, issue resolution, team support, quality checks, and process improvement",
+        "Perform manual testing and functional validation of business workflows, operational changes, process outputs, and data to identify discrepancies and support resolution",
+        "Coordinate and validate workflows across underwriting, policy administration, accounting, claims support, data migration, and related insurance operations",
+        "Perform data validation, reconciliation, reporting checks, and process-quality reviews to support accuracy, consistency, and turnaround requirements",
+        "Lead process improvement initiatives through workflow analysis, standardization, documentation, and Excel/VBA automation",
+        "Develop and maintain SOPs and process documentation to improve consistency, traceability, standardization, and audit readiness",
+        "Apply Generative AI tools for analysis, documentation, workflow optimization, and productivity improvement",
+        "Designed an end-to-end reporting automation that reduced processing time by approximately 79% through automated extraction, Excel processing, distribution, scheduling, and error handling",
+      ],
+    },
+    {
+      role: "Process Analyst",
+      company: "Dyad, Inc.",
+      location: "Gujarat",
+      period: "Jan 2026 – Jun 2026",
+      current: false,
+      bullets: [
+        "Managed US P&C insurance workflows across underwriting, policy servicing, accounting, claims support, and related processes",
+        "Performed manual quality checks, functional validation, data analysis, reconciliation, and data validation to identify discrepancies and support accurate reporting",
+        "Supported data migration and validation activities to maintain data integrity across operational systems",
+        "Created and standardized SOPs and process documentation and coordinated issue resolution for assigned workflows",
+        "Used Advanced Excel and VBA-based automation to reduce repetitive manual work and improve reporting accuracy",
       ],
     },
     {
       role: "Junior Process Analyst",
-      company: "Dyad India Office",
-      location: "Ahmedabad",
+      company: "Dyad, Inc.",
+      location: "Gujarat",
       period: "Dec 2024 – Jan 2026",
       current: false,
       bullets: [
-        "Executed core insurance operational tasks including insured profile setup, quote processing, and policy renewals",
-        "Supported SOP documentation and assisted senior analysts in quality checks and audits",
-        "Used Excel-based tools to track and organize operational data, improving workflow efficiency",
-        "Built strong domain knowledge across insurance and KPO processes",
+        "Executed US P&C insurance activities including insured profile setup, quote processing, policy renewals, and related servicing tasks",
+        "Supported quality checks, audits, data validation, SOP documentation, and process-standardization activities",
+        "Used Excel-based tools to organize, track, validate, and report operational data",
+        "Built foundational US P&C insurance and KPO expertise, progressing to Process Analyst within 13 months",
       ],
     },
   ],
@@ -140,6 +152,13 @@ const PORTFOLIO = {
   projects: [
     {
       tags: ["Excel", "VBA"],
+      title: "End-to-End Reporting Automation",
+      desc: "Designed an automated reporting pipeline covering extraction, Excel processing, distribution, scheduling, and error handling — cutting reporting processing time by approximately 79%.",
+      github: "",
+      live: "",
+    },
+    {
+      tags: ["Excel", "VBA"],
       title: "VBA Automation Tool",
       desc: "Built Excel-based VBA macros to automate repetitive data entry and reconciliation tasks in insurance operations, significantly cutting manual processing time.",
       github: "https://github.com/08-rudra",
@@ -148,9 +167,9 @@ const PORTFOLIO = {
     {
       tags: ["HTML", "CSS", "JS"],
       title: "Personal Portfolio",
-      desc: "Designed and built this personal portfolio from scratch to represent professional identity in the insurance and KPO operations space.",
-      github: "https://github.com/08-rudra/Rudra-Portfolio-.git",
-      live: "https://08-rudra.github.io/Rudra-Portfolio-/",
+      desc: "Designed and built this personal portfolio from scratch to represent professional identity in the insurance operations and process automation space.",
+      github: "https://github.com/08-rudra/rudraBhatt_portFolio",
+      live: "https://08-rudra.github.io/rudraBhatt_portFolio/",
     },
     {
       tags: ["JavaScript"],
@@ -175,20 +194,27 @@ const PORTFOLIO = {
       featured: true,
       icon: "award",  // "award" | "education" | "cert"
       title: "Kaizenator Award",
-      org: "Dyad India Office",
+      org: "Dyad, Inc. — March 2025",
       desc: "Recognised for continuous improvement mindset and outstanding contribution to process efficiency and operational excellence.",
     },
     {
       featured: false,
       icon: "education",
+      title: "Bachelor of Computer Applications (BCA)",
+      org: "Parul University — 2026 to Present",
+      desc: "Currently pursuing a BCA to build on hands-on process and data expertise with formal computer applications education.",
+    },
+    {
+      featured: false,
+      icon: "education",
       title: "Diploma — Information Technology",
-      org: "Gujarat Technological University",
-      desc: "Completed a 3-year diploma program with focus on IT systems, programming fundamentals, and software development principles.",
+      org: "Gujarat Technological University (GTU) — Grade 7.32",
+      desc: "Completed a diploma program with focus on IT systems, programming fundamentals, and software development principles.",
     },
   ],
 
   // ─── CONTACT SECTION ───────────────────────────────
-  contactSub: "Open to opportunities in InsurTech, KPO operations, and process automation. Feel free to reach out.",
+  contactSub: "Open to opportunities in insurance operations, QA, and process automation. Feel free to reach out.",
 
   // ─── FOOTER ────────────────────────────────────────
   footerCopy: "© 2026 Rudra Bhatt. All rights reserved.",
