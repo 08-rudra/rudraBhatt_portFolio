@@ -43,7 +43,6 @@ const PORTFOLIO = {
 
   // ─── STATS ─────────────────────────────────────────
   stats: [
-    { num: "79%",  label: "Reporting Time Reduced" },
     { num: "3",    label: "Roles — Same Company" },
     { num: "10+",  label: "Insurance Processes" },
     { num: "1",    label: "Kaizenator Award" },
@@ -196,20 +195,6 @@ const PORTFOLIO = {
       title: "Kaizenator Award",
       org: "Dyad, Inc. — March 2025",
       desc: "Recognised for continuous improvement mindset and outstanding contribution to process efficiency and operational excellence.",
-    },
-    {
-      featured: false,
-      icon: "education",
-      title: "Bachelor of Computer Applications (BCA)",
-      org: "Parul University — 2026 to Present",
-      desc: "Currently pursuing a BCA to build on hands-on process and data expertise with formal computer applications education.",
-    },
-    {
-      featured: false,
-      icon: "education",
-      title: "Diploma — Information Technology",
-      org: "Gujarat Technological University (GTU) — Grade 7.32",
-      desc: "Completed a diploma program with focus on IT systems, programming fundamentals, and software development principles.",
     },
   ],
 
